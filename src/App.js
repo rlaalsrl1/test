@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './4월3일/Welcome';
 
 function App() {
   return (
@@ -17,9 +18,17 @@ function App() {
         >
           Learn React
         </a>
+        
       </header>
+      <Welcome name="Mike" />
+      <Welcome name="Steve"/>
+      <Welcome name="Jana"/>
+      <Welcome name="인제"/>
     </div>
+    
   );
+  
 }
+
 
 export default App;
